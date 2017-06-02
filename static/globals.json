@@ -7,15 +7,14 @@
   },
   "network": {
     "schema": "https",
-    "portalHost": "portal.local",
-    "apiHost": "api.portal.local",
+    "portalHost": "$PORTAL_NETWORK_PORTALHOST",
+    "apiHost": "$PORTAL_NETWORK_APIHOST",
     "apiUrl": "$PORTAL_API_URL",
     "portalUrl": "$PORTAL_PORTAL_URL",
     "kongAdapterUrl": "$PORTAL_KONG_ADAPTER_URL",
     "kongAdminUrl": "$PORTAL_KONG_ADMIN_URL",
     "mailerUrl": "$PORTAL_MAILER_URL",
-    "chatbotUrl": "$PORTAL_CHATBOT_URL",
-    "forceRedirectToHttps": false
+    "chatbotUrl": "$PORTAL_CHATBOT_URL"
   },
   "db": {
     "staticConfig": "$PORTAL_API_STATIC_CONFIG",

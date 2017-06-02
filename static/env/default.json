@@ -6,8 +6,8 @@
     "value": "undefined-undefined"
   },
   "PORTAL_API_AESKEY": {
-    "encrypted": true,
-    "value": "8cc9b63c5c1cf2d44ac585cf90e7f10ccd51f5f5929e436b038795e1a488668f16e4867d4349276e7eaaacbfe08ace3ab01a6a83f72f06508b740f24c00b834f5d730f42a083baeed86231a2d22fba93"
+    "value": "8ecce76c5d11a7841f94d5cbc0eda05f9b05a4a1cecf126d03dcc2b3f28166dd4cb5862b104c76697eaaacbfe08ace3ab01a6a83f72f06508b740f24c00b834f5d730f42a083baeed86231a2d22fba93",
+    "encrypted": true
   },
   "PORTAL_API_DYNAMIC_CONFIG": {
     "value": "/var/portal-api/dynamic"
@@ -30,7 +30,13 @@
   "PORTAL_MAILER_URL": {
     "value": "http://${HELM_NAME}-mailer:3003"
   },
+  "PORTAL_NETWORK_PORTALHOST": {
+    "value": "portal.local"
+  },
   "PORTAL_PORTAL_URL": {
     "value": "http://${HELM_NAME}-portal:3000"
+  },
+  "PORTAL_NETWORK_APIHOST": {
+    "value": "api.portal.local"
   }
 }
