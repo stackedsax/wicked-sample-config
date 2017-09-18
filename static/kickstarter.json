@@ -13,7 +13,8 @@
   "templates": 0,
   "design": 2,
   "envs": [
-    "default"
+    "default",
+    "k8s"
   ],
   "env": 2
 }
