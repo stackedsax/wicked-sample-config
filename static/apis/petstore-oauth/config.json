@@ -1,10 +1,13 @@
 {
-    "api": {
-        "upstream_url": "http://petstore.swagger.io/v2",
-        "request_path": "/petstore-oauth",
-        "preserve_host": false,
-        "strip_request_path": true,
-        "name": "petstore-oauth"
-    },
-    "plugins": []
+  "api": {
+    "upstream_url": "http://petstore.swagger.io/v2",
+    "preserve_host": false,
+    "name": "petstore-oauth",
+    "uris": [
+      "/petstore-oauth"
+    ],
+    "strip_uri": true,
+    "http_if_terminated": true
+  },
+  "plugins": []
 }

@@ -1,5 +1,5 @@
 {
-  "version": 5,
+  "version": 6,
   "title": "wicked.haufe.io API Portal",
   "footer": "&copy; 2016 Your Company Ltd.",
   "api": {
@@ -134,5 +134,11 @@
     "application": {
       "titleTagline": "This page lets you administer the owners of this application. You can add and remove co-owners of the application. New co-owners must be already be registered in the portal in order to make them co-owners of the application."
     }
+  },
+  "sessionStore": {
+    "type": "redis",
+    "host": "$PORTAL_SESSIONSTORE_HOST",
+    "port": 6379,
+    "password": ""
   }
 }
