@@ -1,5 +1,5 @@
 {
-  "ADMIN_PASSWORD": {
+  "PORTAL_INITIALUSERS0_PASSWORD": {
     "value": "wicked"
   },
   "HELM_NAME": {
