@@ -1,7 +1,7 @@
 {
   "version": 6,
   "title": "wicked.haufe.io API Portal",
-  "footer": "&copy; 2016 Your Company Ltd.",
+  "footer": "&copy; 2016-2017 Your Company Ltd.",
   "api": {
     "headerName": "X-ApiKey"
   },
