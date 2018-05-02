@@ -44,5 +44,8 @@
   },
   "PORTAL_SESSIONSTORE_HOST": {
     "value": "${HELM_NAME}-redis.${K8S_NAMESPACE}.svc.cluster.local"
+  },
+  "PORTAL_AUTHSERVER_URL": {
+    "value": "http://${HELM_NAME}-auth.${K8S_NAMESPACE}.svc.cluster.local:3004"
   }
 }
