@@ -165,7 +165,7 @@
     ]
   },
   "storage": {
-    "type": "postgres",
+    "type": "$PORTAL_STORAGE_TYPE",
     "pgHost": "$PORTAL_STORAGE_PGHOST",
     "pgPort": 5432,
     "pgUser": "kong",

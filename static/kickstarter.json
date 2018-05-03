@@ -15,7 +15,8 @@
   "envs": [
     "default",
     "k8s",
-    "localhost"
+    "localhost",
+    "localhost_json"
   ],
   "env": 3
 }

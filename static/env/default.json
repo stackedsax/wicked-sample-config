@@ -58,6 +58,9 @@
     "encrypted": false,
     "value": "http://portal-auth:3010"
   },
+  "PORTAL_STORAGE_TYPE": {
+    "value": "postgres"
+  },
   "PORTAL_STORAGE_PGHOST": {
     "value": "${HELM_NAME}-kong-database.${K8S_NAMESPACE}.svc.cluster.local"
   }
