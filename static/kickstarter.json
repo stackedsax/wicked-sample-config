@@ -16,7 +16,8 @@
     "default",
     "k8s",
     "localhost",
-    "localhost_json"
+    "localhost_json",
+    "portal_local"
   ],
   "env": 3
 }
