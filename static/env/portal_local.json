@@ -18,10 +18,10 @@
       "value": "http://${LOCAL_IP}:3003"
     },
     "PORTAL_NETWORK_APIHOST": {
-      "value": "api.portal.local:8000"
+      "value": "api.portal.com:8000"
     },
     "PORTAL_NETWORK_PORTALHOST": {
-      "value": "portal.local:3000"
+      "value": "portal.com:3000"
     },
     "PORTAL_NETWORK_SCHEMA": {
       "value": "http"

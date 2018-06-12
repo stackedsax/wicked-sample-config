@@ -9,35 +9,40 @@
             "friendlyShort": "Username and Password",
             "friendlyLong": "Log in using a local username and password.",
             "config": {
-                "trustUsers": false,
-                "authorizeEndpoint": "/{{name}}/api/{{api}}/authorize",
-                "tokenEndpoint": "/{{name}}/api/{{api}}/token",
-                "profileEndpoint": "/profile",
-                "verifyEmailEndpoint": "/{{name}}/verifyemail"
+                "trustUsers": false
             }
         },
         {
-            "enabled": "false",
+            "enabled": "true",
             "name": "github",
             "type": "github",
             "friendlyShort": "GitHub",
             "friendlyLong": "Log in using your GitHub identity.",
             "config": {
-                "authorizeEndpoint": "/{{name}}/api/{{api}}/authorize",
-                "tokenEndpoint": "/{{name}}/api/{{api}}/token",
-                "profileEndpoint": "/profile"
+                "clientId": "<github client id>",
+                "clientSecret": "<github client secret>"
             }
         },
         {
-            "enabled": "false",
+            "enabled": "true",
             "name": "google",
             "type": "google",
             "friendlyShort": "Google",
             "friendlyLong": "Log in using your Google identity.",
             "config": {
-                "authorizeEndpoint": "/{{name}}/api/{{api}}/authorize",
-                "tokenEndpoint": "/{{name}}/api/{{api}}/token",
-                "profileEndpoint": "/profile"
+                "clientId": "<google client id>",
+                "clientSecret": "<google client secret>"
+            }
+        },
+        {
+            "enabled": "true",
+            "name": "twitter",
+            "type": "twitter",
+            "friendlyShort": "Twitter",
+            "friendlyLong": "Log in using your Twitter identity.",
+            "config": {
+                "consumerKey": "<twitter consumer key>",
+                "consumerSecret": "<twitter consumer secret>"
             }
         }
     ],
