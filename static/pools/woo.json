@@ -1,8 +1,10 @@
 {
-    "id": "wicked",
-    "name": "Portal Users",
-    "properties": {
-        "name": {
+    "id": "woo",
+    "name": "Woo Users",
+    "requiresNamespace": true,
+    "properties": [
+        {
+            "id": "name",
             "description": "Full name of the user",
             "type": "string",
             "maxLength": 255,
@@ -10,7 +12,8 @@
             "required": true,
             "oidcClaim": "name"
         },
-        "company": {
+        {
+            "id": "company",
             "description": "Company",
             "type": "string",
             "maxLength": 255,
@@ -18,7 +21,8 @@
             "required": false,
             "oidcClaim": "wicked.haufe.io:company"
         },
-        "phone": {
+        {
+            "id": "phone",
             "description": "Telephone number",
             "type": "string",
             "maxLength": 63,
@@ -26,5 +30,5 @@
             "required": false,
             "oidcClaim": "phone_number"
         }
-    }
+    ]
 }
