@@ -22,13 +22,21 @@
         "Sample"
       ],
       "requiredGroup": "dev",
+      "registrationPool": "woo",
       "plans": [
         "basic",
         "unlimited"
       ],
+      "authMethods": [
+        "default:local",
+        "default:google"
+      ],
       "settings": {
         "token_expiration": 3600,
-        "enable_client_credentials": true
+        "enable_client_credentials": true,
+        "enable_implicit_grant": true,
+        "enable_authorization_code": true,
+        "enable_password_grant": true
       }
     }
   ],
