@@ -22,7 +22,7 @@
         "Sample"
       ],
       "requiredGroup": "dev",
-      "registrationPool": "woo",
+      "registrationPool": "wicked",
       "plans": [
         "basic",
         "unlimited"
