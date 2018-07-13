@@ -29,6 +29,9 @@
     "PORTAL_PORTAL_URL": {
       "value": "http://${LOCAL_IP}:3000"
     },
+    "PORTAL_ECHO_URL": {
+      "value": "http://${LOCAL_IP}:3009"
+    },
     "PORTAL_AUTHSERVER_URL": {
       "value": "http://${LOCAL_IP}:3010"
     },

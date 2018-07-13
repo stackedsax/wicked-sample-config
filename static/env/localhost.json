@@ -37,5 +37,8 @@
   },
   "PORTAL_STORAGE_PGHOST": {
     "value": "${LOCAL_IP}"
+  },
+  "PORTAL_ECHO_URL": {
+    "value": "http://${LOCAL_IP}:3009"
   }
 }
