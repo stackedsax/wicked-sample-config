@@ -1,0 +1,1 @@
+openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout k8s/portal-key.pem -out k8s/portal-cert.pem -subj "/CN=portal.local"
