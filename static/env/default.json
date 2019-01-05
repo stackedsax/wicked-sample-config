@@ -1,7 +1,4 @@
 {
-  "PORTAL_INITIALUSERS0_PASSWORD": {
-    "value": "wicked"
-  },
   "HELM_NAME": {
     "value": "undefined-undefined"
   },
@@ -9,7 +6,7 @@
     "value": "default"
   },
   "PORTAL_API_AESKEY": {
-    "value": "8ecce76c5d11a7841f94d5cbc0eda05f9b05a4a1cecf126d03dcc2b3f28166dd4cb5862b104c76697eaaacbfe08ace3ab01a6a83f72f06508b740f24c00b834f5d730f42a083baeed86231a2d22fba93",
+    "value": "d89ebc6c5f1df0864c94d3cb92eff703c804a2f59fc0176f0fdc9ee9f2d937de44e38d29414f203a7eaaacbfe08ace3ab01a6a83f72f06508b740f24c00b834f5d730f42a083baeed86231a2d22fba93",
     "encrypted": true
   },
   "PORTAL_API_DYNAMIC_CONFIG": {
@@ -24,6 +21,9 @@
   "PORTAL_CHATBOT_URL": {
     "value": "http://${HELM_NAME}-chatbot.${K8S_NAMESPACE}.svc.cluster.local:3004"
   },
+  "PORTAL_INITIALUSERS0_PASSWORD": {
+    "value": "wicked"
+  },
   "PORTAL_KONG_ADAPTER_URL": {
     "value": "http://${HELM_NAME}-kong-adapter.${K8S_NAMESPACE}.svc.cluster.local:3002"
   },
@@ -33,14 +33,17 @@
   "PORTAL_MAILER_URL": {
     "value": "http://${HELM_NAME}-mailer.${K8S_NAMESPACE}.svc.cluster.local:3003"
   },
+  "PORTAL_NETWORK_APIHOST": {
+    "value": "api.portal.local"
+  },
   "PORTAL_NETWORK_PORTALHOST": {
     "value": "portal.local"
   },
+  "PORTAL_NETWORK_SCHEMA": {
+    "value": "https"
+  },
   "PORTAL_PORTAL_URL": {
     "value": "http://${HELM_NAME}-portal.${K8S_NAMESPACE}.svc.cluster.local:3000"
-  },
-  "PORTAL_NETWORK_APIHOST": {
-    "value": "api.portal.local"
   },
   "PORTAL_SESSIONSTORE_HOST": {
     "value": "${HELM_NAME}-redis.${K8S_NAMESPACE}.svc.cluster.local"
